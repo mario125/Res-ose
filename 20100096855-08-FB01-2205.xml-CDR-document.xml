@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns4:ApplicationResponse xmlns:ns4="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ns2="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ns3="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"><ns2:UBLExtensions><ns2:UBLExtension><ns2:ExtensionContent><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+	  <ds:SignedInfo>
+	    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+	    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+	    <ds:Reference URI="">
+	      <ds:Transforms>
+		<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+	      </ds:Transforms>
+	      <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+	      <ds:DigestValue>ILp+d4I5EfyN+SKJZPSlKNJVKWs=</ds:DigestValue>
+	    </ds:Reference>
+	  </ds:SignedInfo>
+	  <ds:SignatureValue>FvLbby+XxaXevYsjDXUH3hWygQxbVTeFa2+4Y6lfB3+Pso4Dyrvmq//CZJjdWlM7oc5+NxyfGe8K
+TXQISxZ7dCH9ZqMST5ssbpcda2wLrTV7mVXj67IhZ/War1TvTgKFMuedp2MQsPCKG2V04P4//Bs3
+DGKLhOT5bBW4Q5g9cF6rWlceMKb+7vpMnQfzhZ5gW1lA/Ii+OVBZeEDM0SntH3qd+kEToHvnVS4u
+hyVmGluHF7invV+bUwCX1GPfIWD/nf3K9sQRJ1F0Ow5lTIgLD9f3oEbn6U+NvqgCYFLE5nhb8qLv
+ytP4yasxVLdAH4lIiV3H0/4IZlw3yhcZU3RBhQ==</ds:SignatureValue>
+	  <ds:KeyInfo><ds:X509Data>
+	      <ds:X509Certificate>MIIFVDCCBDygAwIBAgIMOlI99wixpVtJMaevMA0GCSqGSIb3DQEBBQUAMFQxCzAJBgNVBAYTAkJF
+MRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMSowKAYDVQQDEyFHbG9iYWxTaWduIFBlcnNvbmFs
+U2lnbiAyIENBIC0gRzIwHhcNMTcwNTE3MTU1NzU5WhcNMTgwNTE4MTU1NzU5WjCBrzELMAkGA1UE
+BhMCUEUxDTALBgNVBAgTBExpbWExEzARBgNVBAcTCk1pcmFmbG9yZXMxFTATBgNVBAoTDEVmYWN0
+IFMuQS5DLjESMBAGA1UECxMJMDAwNjIzMDM1MRQwEgYDVQQLEwsyMDU1MTA5MzAzNTEaMBgGA1UE
+AxMRS2VubmV0aCBCZW5ndHNzb24xHzAdBgkqhkiG9w0BCQEWEGR2YXJnYXNAZWZhY3QucGUwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxVTDlx4FVHqLYhOqvZzG5v8EsOveP4x3wlHyn
+FXHFJywMKOq6FxGSL1kVeqTqHP/PUREab04xX/sdgxCs9/OzJGQSW125R/2ASCYBbBLa5VQkqIPN
+XvzPknmZzLKM3HJJyW8wz6wM5YicU31axTOFAunFTwj/hUsZrahdeRDiZC2Omv5EXBR7ng20EXTG
+czH4NHK+GqSFVB1KGsWClU/2IQWtnnDCjO1FnNUL1uKx+bZV0rKvjV3hg8e7qzDG33pvzl99mmuk
+CXZg37oqDkRXfqeBl7mmHWjeXCfIPzYaJEX90YsSLcziaXhXggxNaMnKMAbqXomPIIK4Vxu0Q/qB
+AgMBAAGjggHIMIIBxDAOBgNVHQ8BAf8EBAMCBeAwgZYGCCsGAQUFBwEBBIGJMIGGMEkGCCsGAQUF
+BzAChj1odHRwOi8vc2VjdXJlLmdsb2JhbHNpZ24uY29tL2NhY2VydC9nc3BlcnNvbmFsc2lnbjJn
+Mm9jc3AuY3J0MDkGCCsGAQUFBzABhi1odHRwOi8vb2NzcDIuZ2xvYmFsc2lnbi5jb20vZ3NwZXJz
+b25hbHNpZ24yZzIwTQYDVR0gBEYwRDBCBgorBgEEAaAyASgKMDQwMgYIKwYBBQUHAgEWJmh0dHBz
+Oi8vd3d3Lmdsb2JhbHNpZ24uY29tL3JlcG9zaXRvcnkvMAkGA1UdEwQCMAAwQwYDVR0fBDwwOjA4
+oDagNIYyaHR0cDovL2NybC5nbG9iYWxzaWduLmNvbS9ncy9nc3BlcnNvbmFsc2lnbjJnMi5jcmww
+GwYDVR0RBBQwEoEQZHZhcmdhc0BlZmFjdC5wZTAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUH
+AwQwHQYDVR0OBBYEFEOeCB754EIGfOf1ry44SB/SSnGwMB8GA1UdIwQYMBaAFD8V0m18L+cxnkMK
+BqiUbCw7xe5lMA0GCSqGSIb3DQEBBQUAA4IBAQC/gqRkbbSUhcAZqDxJQIaOOoiN0HMJ6GVjeOqF
+KaveYemiXjSQOTkRLVM/ajgpj1axO6hiriUGj9Y/Z1M98lTFkJrxheY0Y2u1Q2Qmvp+EaXHtSeA7
+G7D+bYeKRs9w2h2HrOSiK+oG+0Q/+IM066kvSyfP6jY5chWWJnBaFGUOfXyl5egzt0kC9ZgSW51p
+B7wjtypUTApjA62ljGjrhPKmCYw1nYNT1VxS74K+YIARst+URT+h5XLGXJRK59q6zyfrTTkRf58j
+ogCMaq0F6txK0Iorwhata1RT0Cz6CHEMUT0dHKD+ej3o6T64hUxNJTgqOy4Euxxf+DkgT9LEkrmI</ds:X509Certificate>
+	      <ds:X509IssuerSerial>
+		<ds:X509IssuerName>1.2.840.113549.1.9.1=#1610647661726761734065666163742e7065,CN=Kenneth Bengtsson,OU=20551093035,OU=000623035,O=Efact S.A.C.,L=Miraflores,ST=Lima,C=PE</ds:X509IssuerName>
+		<ds:X509SerialNumber>18049555108174118467650299823</ds:X509SerialNumber>
+	      </ds:X509IssuerSerial>
+	    </ds:X509Data></ds:KeyInfo>
+	</ds:Signature></ns2:ExtensionContent></ns2:UBLExtension></ns2:UBLExtensions><UBLVersionID>2.1</UBLVersionID><CustomizationID>1.0</CustomizationID><ID>b810b221-5917-4e17-91c9-7110940b313c</ID><IssueDate>2017-09-22</IssueDate><IssueTime>16:18:01.00228</IssueTime><ResponseDate>2017-09-22</ResponseDate><ResponseTime>16:18:01.00233</ResponseTime><ns3:SenderParty><ns3:PartyLegalEntity><CompanyID schemeAgencyName="PE:SUNAT" schemeID="6" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo6">20141123899</CompanyID></ns3:PartyLegalEntity></ns3:SenderParty><ns3:ReceiverParty><ns3:PartyLegalEntity><CompanyID schemeAgencyName="PE:SUNAT" schemeID="6" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo6">20551093035</CompanyID></ns3:PartyLegalEntity></ns3:ReceiverParty><ns3:DocumentResponse><ns3:Response><ReferenceID>FB01-2205</ReferenceID><ResponseCode listAgencyName="PE:SUNAT">0</ResponseCode><Description>La Nota de Debito FB01-2205 ha sido aceptada.</Description></ns3:Response><ns3:DocumentReference><ID>FB01-2205</ID><IssueDate>2017-09-19</IssueDate><DocumentTypeCode>08</DocumentTypeCode><ns3:Attachment><ns3:ExternalReference><DocumentHash>C2b5VI9LxfhpqwRDGdQLpXY52YI=</DocumentHash></ns3:ExternalReference></ns3:Attachment></ns3:DocumentReference><ns3:IssuerParty><ns3:PartyLegalEntity><CompanyID schemeID="6">20100096855</CompanyID></ns3:PartyLegalEntity></ns3:IssuerParty><ns3:RecipientParty><ns3:PartyLegalEntity><CompanyID schemeID="6">20100003946</CompanyID></ns3:PartyLegalEntity></ns3:RecipientParty></ns3:DocumentResponse></ns4:ApplicationResponse>
